@@ -1,0 +1,93 @@
+.status.column-status, 
+.manage-column.column-status{
+    text-align: center;
+}
+.online-logged-in {
+    color: #4CBB17;
+    font-size: 32px;
+}
+.offline-dot{
+    color:#FF4433;
+    font-size: 32px;
+}
+.never-dot{
+    color:#808080;
+    font-size: 32px;
+}
+#wpadminbar #wp-admin-bar-webi_user_link .ab-icon {
+    font-size: 30px !important;
+    top: -9px;
+    color: #4CBB17 !important;
+}
+#wpadminbar .ab-icon.online-logged-in{
+    color: #4CBB17 !important;
+}
+.webi-active-users{
+    width: 30%;
+    max-width: 100%;
+    background-color: #4CBB17;
+    text-align: center;
+    padding: 15px;
+    height: auto;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.webi-active-users small {
+    font-size: 17px;
+    font-weight: 700;
+}
+.widget-area .webi-active-users{
+     width: 100%;
+}
+
+.webi-table-container {
+    overflow-x: auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+.webi-online-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.webi-online-table thead {
+    background: #f1f1f1;
+}
+.webi-online-table th, .webi-online-table td {
+    padding: 10px 12px;
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 14px;
+}
+
+.webi-avatar {
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.webi-country-flag {
+    width: 16px;
+    height: 12px;
+    vertical-align: text-bottom;
+    margin-right: 6px;
+}
+.table-header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.top-total-user{
+    text-align: right;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .webi-online-table th, .webi-online-table td {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
