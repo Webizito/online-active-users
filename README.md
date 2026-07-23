@@ -1,4 +1,4 @@
-# WP Online Active Users
+## WP Online Active Users
 
 WP Online Active Users is a lightweight, powerful plugin to monitor and display how many users are currently online active on your WordPress website.
 
